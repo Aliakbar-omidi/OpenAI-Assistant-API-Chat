@@ -15,10 +15,8 @@ const nextConfig = {
     ];
   },
   env: {
-    REACT_APP_ASSISTANT_ID: process.env.REACT_APP_ASSISTANT_ID,
+    REACT_APP_ASSISTANT_ID: process.env.REACT_APP_ASSISTANT_ID || 'your_assistant_id_here',
   },
 };
-  env: {
-    REACT_APP_ASSISTANT_ID: 'your_assistant_id_here',
-  },
+
 module.exports = nextConfig;
